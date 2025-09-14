@@ -439,7 +439,7 @@ export default function Portfolio() {
                 <CardTitle className="flex items-center justify-between">
                   MindMate
                   <div className="flex space-x-2">
-                    <Link href="https://github.com/azeddineharchaoui/MindMate2" target="_blank">
+                    <Link href="https://github.com/azddineharchaoui/MindMate2" target="_blank">
                       <Github className="w-5 h-5 hover:text-primary" />
                     </Link>
                     
@@ -570,7 +570,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-shadow">
               <div className="relative  overflow-hidden">
                 <Image
-                  src="/drive.png?height=200&width=400"
+                  src="/drive.png"
                   alt="Drive & Loc"
                   width={400}
                   height={200}
@@ -603,7 +603,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-shadow">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/school.png?height=200&width=400"
+                  src="/school.png"
                   alt="School management C application"
                   width={400}
                   height={200}
@@ -645,36 +645,210 @@ export default function Portfolio() {
             <p className="text-lg text-muted-foreground">Professional certifications and recognitions</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <Card className="text-center">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/generative_ia_for_everyone.png"
+                  alt="Generative AI for Everyone Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
               <CardHeader>
-                <Award className="w-12 h-12 mx-auto mb-4 text-primary" />
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
+                <CardTitle>Generative AI for Everyone</CardTitle>
+                <CardDescription>IBM (Professional)</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Comprehensive understanding of generative AI technologies, applications, and ethical considerations. Gained practical knowledge in implementing and evaluating generative AI solutions across various domains.
+                </p>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/foundations.png"
+                  alt="Foundations of AI Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
+              <CardHeader>
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
+                <CardTitle>Foundations of AI</CardTitle>
+                <CardDescription>IBM (Professional)</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Mastered core AI concepts including machine learning, neural networks, and data preparation. Developed skills in designing and implementing AI solutions while understanding their business implications.
+                </p>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/devops.png"
+                  alt="DevOps Basics for Everyone Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
+              <CardHeader>
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
+                <CardTitle>DevOps Basics for Everyone</CardTitle>
+                <CardDescription>IBM</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Acquired fundamental DevOps practices, CI/CD pipeline implementation, and collaboration between development and operations teams. Learned essential tools and methodologies for automation and efficient software delivery.
+                </p>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
+              </CardContent>
+            </Card>
+            
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/mlops.png"
+                  alt="AI/ML Foundations Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
+              <CardHeader>
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
+                <CardTitle>AI/ML Foundations (AgenticAI + MLOps)</CardTitle>
+                <CardDescription>Udemy</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Deep dive into Machine Learning operations and agentic AI systems. Developed skills in ML model deployment, monitoring, and the creation of autonomous AI agents that can perform tasks with minimal human supervision.
+                </p>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/generative_ai.png"
+                  alt="Introduction to Generative AI Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
+              <CardHeader>
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
+                <CardTitle>Introduction to Generative AI</CardTitle>
+                <CardDescription>Pragmatic AI Labs</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Explored the fundamentals of generative AI models, their architectures, and applications. Gained hands-on experience with various generative models and understanding of their capabilities and limitations.
+                </p>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/llmops.png"
+                  alt="LLMOps with Azure Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
+              <CardHeader>
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
+                <CardTitle>LLMOps with Azure</CardTitle>
+                <CardDescription>Pragmatic AI Labs</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Advanced training in deploying, managing, and scaling Large Language Models on Azure. Learned best practices for LLM operations, optimization techniques, and integration with Azure AI services.
+                </p>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/servicenow.png"
+                  alt="ServiceNow Verified System Administrator Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
+              <CardHeader>
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
                 <CardTitle>ServiceNow Verified System Administrator</CardTitle>
                 <CardDescription>ServiceNow</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-4">
                   The ServiceNow Certified System Administrator (CSA) certificate validates foundational knowledge of the ServiceNow platform. It demonstrates the ability to configure, manage, and maintain ServiceNow applications and services.                </p>
-                <Badge variant="outline">Completed 2025</Badge>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
               </CardContent>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/generative_ai_.png"
+                  alt="Introduction to Generative AI Certificate - IBM"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
               <CardHeader>
-                <Award className="w-12 h-12 mx-auto mb-4 text-primary" />
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
                 <CardTitle>Introduction to Generative AI</CardTitle>
                 <CardDescription>IBM via EDX platforme</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-4">
-Knowledge of generative AI technologies, their real-world applications, and their transformative impact across various industries. From content creation to data analysis, I’ve gained practical skills to effectively leverage these innovative tools.                </p>
-                <Badge variant="outline">Completed 2025</Badge>
+Knowledge of generative AI technologies, their real-world applications, and their transformative impact across various industries. From content creation to data analysis, I've gained practical skills to effectively leverage these innovative tools.                </p>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
               </CardContent>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center group hover:shadow-lg transition-shadow overflow-hidden">
+              <div className="relative">
+                <Image
+                  src="/certificates/master_ai.png"
+                  alt="Mastering AI Agents Bootcamp Certificate"
+                  width={400}
+                  height={250}
+                  className="w-full object-cover object-center group-hover:scale-105 transition-transform"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
               <CardHeader>
-                <Award className="w-12 h-12 mx-auto mb-4 text-primary" />
+                <Award className="w-10 h-10 mx-auto mb-2 text-primary" />
                 <CardTitle>Mastering AI Agents Bootcamp: Build Smart Chatbots & Tools</CardTitle>
                 <CardDescription>AI School via Udemy</CardDescription>
               </CardHeader>
@@ -683,7 +857,7 @@ Knowledge of generative AI technologies, their real-world applications, and thei
                   Developed AI-powered agents, chatbots, and automation bots with speech, memory, and document processing features.
 Built web-based assistants using vector databases and prompt engineering for dynamic, human-like AI interactions.
                 </p>
-                <Badge variant="outline">Completed 2025</Badge>
+                <Badge className="bg-primary/10 text-primary hover:bg-primary/20">Completed 2025</Badge>
               </CardContent>
             </Card>
           </div>
